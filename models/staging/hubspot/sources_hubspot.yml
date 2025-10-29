@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: hubspot
+    description: HubSpot raw data in Athena (S3 external tables)
+    database: AwsDataCatalog
+    schema: support_data_hubspot
+    tags: [s3, athena, hubspot]
+
+
+  - name: jira
+    description: Jira raw data in Athena (S3 external tables)
+    database: AwsDataCatalog
+    schema: support_data_jira
+    tags: [s3, athena, jira]
+
+
+  - name: zendesk
+    description: Zendesk raw data in Athena (S3 external tables)
+    database: AwsDataCatalog
+    schema: support_data_zendesk
+    tags: [s3, athena, zendesk]
